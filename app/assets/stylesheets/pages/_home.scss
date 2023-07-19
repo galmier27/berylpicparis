@@ -1,4 +1,12 @@
 // Specific CSS for your home-page
+body{
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
 .mainbar{
   height: 400px;
   background-color: #27374D;
@@ -26,4 +34,80 @@
   background-position: center;
   background-size: contain;
   border-radius: 10px;
+}
+
+.parcours h3 {
+  font-size: 50px;
+  color: #526D82;
+}
+
+.parcours p {
+  color: #27374D;
+  font-style: italic;
+  text-align: justify;
+}
+
+
+.second-main{
+  display: flex;
+}
+.contact{
+  width: 50%;
+  background-color: #DDE6ED;
+  color: #27374D;
+  height: 200px;
+  /* padding: 50px; */
+  /* text-align: center; */
+  padding: 30px;
+
+}
+
+.contact h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact p {
+  margin-left: 5px ;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.contact a {
+  color: #27374D;
+}
+
+.contact a:hover {
+  color: orange;
+}
+
+.location {
+  width: 50%;
+  padding: 30px;
+  background-color: #526D82;
+  color: white;
+}
+
+.location h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.location p {
+  margin-left: 5px ;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.ml{
+  margin-left: 100px;
+}
+
+.footer {
+  height: 100px;
+  background-color: #9DB2BF;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
 }
